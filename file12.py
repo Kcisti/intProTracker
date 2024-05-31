@@ -33,5 +33,3 @@ def main():
     print(f"{Wh} ABBR            :{Gr}", ip_data["timezone"]["abbr"])
     print(f"{Wh} DST             :{Gr}", ip_data["timezone"]["is_dst"])
     print(f"{Wh} Offset          :{Gr}", ip_data["timezone"]["offset"])
-
-main()
